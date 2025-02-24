@@ -22,5 +22,5 @@ export interface ModerationEntry {
   action: string;
   note: string;
   timestamp: string;
-  moderationResponseTweetId: string;
+  moderationResponseTweetId?: string;
 }

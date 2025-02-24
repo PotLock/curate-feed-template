@@ -3133,7 +3133,7 @@ const Index = () => {
   const [sortBy, setSortBy] = useState("date-desc");
 
   const filteredAndSortedTweets = useMemo(() => {
-    let filtered = tweets.filter(
+    const filtered = tweets.filter(
       (tweet) =>
         tweet.content.toLowerCase().includes(searchTerm.toLowerCase()) ||
         tweet.username.toLowerCase().includes(searchTerm.toLowerCase())
@@ -3158,7 +3158,7 @@ const Index = () => {
       <div className="max-w-4xl mx-auto space-y-8">
         <div className="text-center">
           <h1 className="text-4xl font-bold bg-gradient-to-r from-[#14F195] to-[#9945FF] text-transparent bg-clip-text">
-            SOL-WEEK Feed
+            SOL Digest
           </h1>
           <p className="mt-2 text-gray-400">
             Track the latest in Solana
