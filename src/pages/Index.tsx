@@ -20,7 +20,106 @@ const tweets: Tweet[] = [
     "moderationHistory": [],
     "status": "pending"
   },
-  // ... add the rest of the tweets here
+  {
+    "tweetId": "1887429206516105342",
+    "userId": "1792452558146961408",
+    "username": "Memento_ai",
+    "content": "🚀🚀🚀",
+    "curatorNotes": "SEND AI / solana agent kit adds support for Python",
+    "curatorId": "963338159043088384",
+    "curatorUsername": "ShillKING22",
+    "curatorTweetId": "1887433942728352039",
+    "createdAt": "2025-02-06T09:12:44.000Z",
+    "submittedAt": "2025-02-06T09:54:10.308Z",
+    "moderationHistory": [],
+    "status": "pending"
+  },
+  {
+    "tweetId": "1880845169345573220",
+    "userId": "1435897632581357572",
+    "username": "SolanaFloor",
+    "content": "🚨BREAKING: @realDonaldTrump's official Solana meme coin, $TRUMP, flips $PEPE to become the third-largest meme coin by market cap. https://t.co/mn0st7MNa4",
+    "curatorNotes": "@realDonaldTrump",
+    "curatorId": "1654266255711301632",
+    "curatorUsername": "plugrel",
+    "curatorTweetId": "1880854142077587708",
+    "createdAt": "2025-01-19T05:10:07.000Z",
+    "submittedAt": "2025-01-21T05:01:29.022Z",
+    "moderationHistory": [
+      {
+        "tweetId": "1880845169345573220",
+        "feedId": "solana",
+        "adminId": "plugrel",
+        "action": "approve",
+        "note": "@realDonaldTrump",
+        "timestamp": "2025-01-19T05:45:46.000Z",
+        "moderationResponseTweetId": "1880854142077587708"
+      },
+      {
+        "tweetId": "1880845169345573220",
+        "feedId": "crypto",
+        "adminId": "plugrel",
+        "action": "approve",
+        "note": "@realDonaldTrump",
+        "timestamp": "2025-01-19T05:45:46.000Z",
+        "moderationResponseTweetId": "1880854142077587708"
+      },
+      {
+        "tweetId": "1880845169345573220",
+        "feedId": "solana",
+        "adminId": "plugrel",
+        "action": "approve",
+        "note": "@realDonaldTrump",
+        "timestamp": "2025-01-19T05:45:46.000Z",
+        "moderationResponseTweetId": "1880854142077587708"
+      },
+      {
+        "tweetId": "1880845169345573220",
+        "feedId": "crypto",
+        "adminId": "plugrel",
+        "action": "approve",
+        "note": "@realDonaldTrump",
+        "timestamp": "2025-01-19T05:45:46.000Z",
+        "moderationResponseTweetId": "1880854142077587708"
+      }
+    ],
+    "status": "approved",
+    "moderationResponseTweetId": "1880854142077587708"
+  },
+  {
+    "tweetId": "1881120625328361600",
+    "userId": "1435897632581357572",
+    "username": "SolanaFloor",
+    "content": "🚨JUST IN: @phantom reports 8M+ requests per minute, causing wallet loading failures and transaction issues. Users face disruptions as Melania Trump's meme coin launch on Solana drives massive activity. Phantom says they're working to stabilize the platform. https://t.co/roym4BZcCV",
+    "curatorNotes": "@phantom",
+    "curatorId": "1654266255711301632",
+    "curatorUsername": "plugrel",
+    "curatorTweetId": "1881124629563277362",
+    "createdAt": "2025-01-19T23:24:41.000Z",
+    "submittedAt": "2025-01-21T05:01:30.523Z",
+    "moderationHistory": [
+      {
+        "tweetId": "1881120625328361600",
+        "feedId": "solana",
+        "adminId": "plugrel",
+        "action": "approve",
+        "note": "@phantom",
+        "timestamp": "2025-01-19T23:40:35.000Z",
+        "moderationResponseTweetId": "1881124629563277362"
+      },
+      {
+        "tweetId": "1881120625328361600",
+        "feedId": "solana",
+        "adminId": "plugrel",
+        "action": "approve",
+        "note": "@phantom",
+        "timestamp": "2025-01-19T23:40:35.000Z",
+        "moderationResponseTweetId": "1881124629563277362"
+      }
+    ],
+    "status": "approved",
+    "moderationResponseTweetId": "1881124629563277362"
+  }
 ];
 
 const Index = () => {

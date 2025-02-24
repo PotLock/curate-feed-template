@@ -23,7 +23,16 @@ export const TweetCard = ({ tweet }: TweetCardProps) => {
             </span>
           </div>
           <div>
-            <h3 className="font-medium text-gray-900">{tweet.username}</h3>
+            <h3 className="font-medium text-gray-900">
+              <a 
+                href={`https://twitter.com/${tweet.username}`} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-blue-500 transition-colors"
+              >
+                {tweet.username}
+              </a>
+            </h3>
             <p className="text-sm text-gray-500">
               {format(new Date(tweet.createdAt), "MMM d, yyyy")}
             </p>
