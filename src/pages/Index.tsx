@@ -148,11 +148,15 @@ const Index = () => {
   }, [searchTerm, sortBy]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-[#000000] via-[#1C1C1C] to-[#000000] py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto space-y-8">
         <div className="text-center">
-          <h1 className="text-4xl font-semibold text-gray-900">Twitter Feed</h1>
-          <p className="mt-2 text-gray-600">Discover the latest tweets</p>
+          <h1 className="text-4xl font-bold bg-gradient-to-r from-[#14F195] to-[#9945FF] text-transparent bg-clip-text">
+            SOL-WEEK Feed
+          </h1>
+          <p className="mt-2 text-gray-400">
+            Track the latest in Solana
+          </p>
         </div>
         
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
