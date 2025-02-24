@@ -15,7 +15,7 @@ export const TweetCard = ({ tweet }: TweetCardProps) => {
         return (
           <a
             key={index}
-            href={`https://twitter.com/${word.slice(1)}`}
+            href={`https://x.com/${word.slice(1)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#14F195] hover:text-[#9945FF] transition-colors font-medium"
@@ -79,7 +79,7 @@ export const TweetCard = ({ tweet }: TweetCardProps) => {
           <div>
             <h3 className="font-medium text-gray-200">
               <a 
-                href={`https://twitter.com/${tweet.username}`} 
+                href={`https://x.com/${tweet.username}`} 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-[#14F195] transition-colors"
