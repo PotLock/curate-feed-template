@@ -3,6 +3,7 @@ import { TweetCard } from "@/components/tweet/TweetCard";
 import { SearchBar } from "@/components/tweet/SearchBar";
 import { SortSelect } from "@/components/tweet/SortSelect";
 import { Tweet } from "@/types/tweet";
+import { useConfig } from '../ConfigContext'; // Import useConfig
 
 const tweets: Tweet[] = [
   {
@@ -92,7 +93,7 @@ const tweets: Tweet[] = [
     userId: "1435897632581357572",
     username: "SolanaFloor",
     content:
-      "🚨JUST IN: @phantom reports 8M+ requests per minute, causing wallet loading failures and transaction issues. Users face disruptions as Melania Trump's meme coin launch on Solana drives massive activity. Phantom says they’re working to stabilize the platform. https://t.co/roym4BZcCV",
+      "🚨JUST IN: @phantom reports 8M+ requests per minute, causing wallet loading failures and transaction issues. Users face disruptions as Melania Trump's meme coin launch on Solana drives massive activity. Phantom says they're working to stabilize the platform. https://t.co/roym4BZcCV",
     curatorNotes: "@phantom",
     curatorId: "1654266255711301632",
     curatorUsername: "plugrel",
@@ -563,7 +564,7 @@ const tweets: Tweet[] = [
     userId: "1488351240308379649",
     username: "moludotsol",
     content:
-      "So @JupiterExchange just announced Jupnet. \n\nHere’s why it’s the most bullish thing in crypto. \n\n🧵/ https://t.co/BYkstD4D9Q",
+      "So @JupiterExchange just announced Jupnet. \n\nHere's why it's the most bullish thing in crypto. \n\n🧵/ https://t.co/BYkstD4D9Q",
     curatorNotes:
       "@JupiterExchange @weremeow   Jupiter Exchange just annoucned Jupnet and Omnichain network for liquidity at their Conference Catstanbul in Turkey",
     curatorId: "1654266255711301632",
@@ -713,7 +714,7 @@ const tweets: Tweet[] = [
     userId: "1093910462436118528",
     username: "solstrategies_",
     content:
-      "🚨 Big moves from $HODL 🚨\n\nWe’ve acquired another 19,100 SOL, growing our holdings to 160,710 SOL worth $58.4M CAD as of Jan 24. \n\n📖 https://t.co/TpM8V7mbKr\n\nJoin us on Jan 28 at 4:30 PM EST for our Q4 Earnings Call to hear more about our strategy for advancing Solana’s infrastructure.\n\nEarnings call information: https://t.co/WoKv8Omkdr",
+      "🚨 Big moves from $HODL 🚨\n\nWe've acquired another 19,100 SOL, growing our holdings to 160,710 SOL worth $58.4M CAD as of Jan 24. \n\n📖 https://t.co/TpM8V7mbKr\n\nJoin us on Jan 28 at 4:30 PM EST for our Q4 Earnings Call to hear more about our strategy for advancing Solana's infrastructure.\n\nEarnings call information: https://t.co/WoKv8Omkdr",
     curatorNotes: null,
     curatorId: "1654266255711301632",
     curatorUsername: "plugrel",
@@ -835,7 +836,7 @@ const tweets: Tweet[] = [
     userId: "1159375411438133249",
     username: "_ilmoi",
     content:
-      "9 months ago we decied to pivot out of NFTs\n\nngl at the time felt like a fucking scary decision\n\ntoday @VECTORDOTFUN is doing 10x the revenue of @tensor_hq ($90m/yr). while being gated.\n\nconviction. https://t.co/xApabqrKma",
+      "9 months ago we decied to pivot out of NFTs\n\ngnl at the time felt like a fucking scary decision\n\ntoday @VECTORDOTFUN is doing 10x the revenue of @tensor_hq ($90m/yr). while being gated.\n\nconviction. https://t.co/xApabqrKma",
     curatorNotes:
       "@VECTORDOTFUN @tensor_hq   Vectordotfun doing projected $90 million in annualized revenue while still being a gated mobile app",
     curatorId: "1654266255711301632",
@@ -1395,7 +1396,7 @@ const tweets: Tweet[] = [
     userId: "1568425000935518209",
     username: "helium_mobile",
     content:
-      "It’s HERE. The first FREE phone plan ☁️.\n\nInvite-only. Break 🆓 from big telco and join the waitlist ➡️ https://t.co/VeTeSgVaEZ https://t.co/tflqWkxHGM",
+      "It's HERE. The first FREE phone plan ☁️.\n\nInvite-only. Break 🆓 from big telco and join the waitlist ➡️ https://t.co/VeTeSgVaEZ https://t.co/tflqWkxHGM",
     curatorNotes:
       'Helium Mobile offers the first free phone plan covering "The Largest US 5G Network."',
     curatorId: "1654266255711301632",
@@ -1431,7 +1432,7 @@ const tweets: Tweet[] = [
     userId: "1839742030890631168",
     username: "ramzyyalii",
     content:
-      "I am thrilled to share that I have joined the @SolanaFndn as Defi Growth Lead!\n\nWith Firedancer on the way, unprecedented institutional adoption, increased blockspace and transaction speeds, congestion fixes and a wave of talented builders entering the space, Solana is approaching a new era of scalability and efficiency.\n\nThe energy around projects like @JupiterExchange, @Perena__ , @DriftProtocol, @jito_sol, @KaminoFinance, @RaydiumProtocol and @marginfi is electric, and I am excited to help scale the next generation of DeFi applications on Solana.\n\nHuge thanks to @calilyliu, @bennybitcoins, @nickducoff, @DanPaul000, @jnwng, @voteforpedrito, Matt, and the entire Solana Foundation team for the opportunity.\n\nIf you’re building in DeFi on Solana, let’s connect!",
+      "I am thrilled to share that I have joined the @SolanaFndn as Defi Growth Lead!\n\nWith Firedancer on the way, unprecedented institutional adoption, increased blockspace and transaction speeds, congestion fixes and a wave of talented builders entering the space, Solana is approaching a new era of scalability and efficiency.\n\nThe energy around projects like @JupiterExchange, @Perena__ , @DriftProtocol, @jito_sol, @KaminoFinance, @RaydiumProtocol and @marginfi is electric, and I am excited to help scale the next generation of DeFi applications on Solana.\n\nHuge thanks to @calilyliu, @bennybitcoins, @nickducoff, @DanPaul000, @jnwng, @voteforpedrito, Matt, and the entire Solana Foundation team for the opportunity.\n\nIf you're building in DeFi on Solana, let's connect!",
     curatorNotes: "@SolanaFndn",
     curatorId: "1654266255711301632",
     curatorUsername: "plugrel",
@@ -1457,7 +1458,7 @@ const tweets: Tweet[] = [
     userId: "1329286069028675585",
     username: "AvbNear",
     content:
-      "Few takeaways from this convo:\n\n* Solana has been ‘captured’ by degens. Better tech solutions were created but people actually wanted the chaos casino over anything else. \n* Solana is now focused on stable coins. With Trump, a trillion dollars are coming onchain. \n* Illia doesn’t see any difference between a ‘crypto start-up’ and a startup (anyone that solves a real problem’ that uses web3 as part of the tech stack, obviously favouring the latter and positive about Trump Pump (regulatory certainty)\n* Toly understands power of product, users, and GTM. Concedes that even if you have a better solution, no products and no users means … no products and no users! \n* Toly has a bewildering basic and simplistic outlook of AI\n* Illia is all in on AI, a trillion agents are coming onchain. \n\nMain takeaway - Solana has the challenge of breaking out of Degen playground into more mass market apps, stablecoins are the right place to focus. NEAR is seemingly falling behind on degens, and products/users but is unfazed - perhaps there will be a DeepSeek moment for Near?\n\nGoood to see friendly banter. Kinda low energy tbh but overall great sport to have two founders talk openly like that. More exchanges like this would be great \n\nhttps://t.co/Ds3ysMzrNv",
+      "Few takeaways from this convo:\n\n* Solana has been 'captured' by degens. Better tech solutions were created but people actually wanted the chaos casino over anything else. \n* Solana is now focused on stable coins. With Trump, a trillion dollars are coming onchain. \n* Illia doesn't see any difference between a 'crypto start-up' and a startup (anyone that solves a real problem' that uses web3 as part of the tech stack, obviously favouring the latter and positive about Trump Pump (regulatory certainty)\n* Toly understands power of product, users, and GTM. Concedes that even if you have a better solution, no products and no users means … no products and no users! \n* Toly has a bewildering basic and simplistic outlook of AI\n* Illia is all in on AI, a trillion agents are coming onchain. \n\nMain takeaway - Solana has the challenge of breaking out of Degen playground into more mass market apps, stablecoins are the right place to focus. NEAR is seemingly falling behind on degens, and products/users but is unfazed - perhaps there will be a DeepSeek moment for Near?\n\nGoood to see friendly banter. Kinda low energy tbh but overall great sport to have two founders talk openly like that. More exchanges like this would be great \n\nhttps://t.co/Ds3ysMzrNv",
     curatorNotes: "a good summary of the youtube talk",
     curatorId: "1603425135356157953",
     curatorUsername: "elliot_braem",
@@ -2408,7 +2409,7 @@ const tweets: Tweet[] = [
     userId: "1505874016761831430",
     username: "DegenerateNews",
     content:
-      "NEW: ARGENTINA PRESIDENT @JMilei’S SOLANA-BASED TOKEN NUKES BELOW $1B FDV - OVER 80% OF TOKEN’S SUPPLY WAS HELD BY A CLUSTER OF WALLETS, PER @bubblemaps https://t.co/v80EaY8Lib",
+      "NEW: ARGENTINA PRESIDENT @JMilei'S SOLANA-BASED TOKEN NUKES BELOW $1B FDV - OVER 80% OF TOKEN'S SUPPLY WAS HELD BY A CLUSTER OF WALLETS, PER @bubblemaps https://t.co/v80EaY8Lib",
     curatorNotes: "@JMilei @bubblemaps",
     curatorId: "1654266255711301632",
     curatorUsername: "plugrel",
@@ -2486,7 +2487,7 @@ const tweets: Tweet[] = [
     userId: "1505874016761831430",
     username: "DegenerateNews",
     content:
-      "BREAKING: @MeteoraAG’S @hellochow RESIGNS https://t.co/UuA44mSmZr",
+      "BREAKING: @MeteoraAG'S @hellochow RESIGNS https://t.co/UuA44mSmZr",
     curatorNotes: "@MeteoraAG @hellochow",
     curatorId: "1654266255711301632",
     curatorUsername: "plugrel",
@@ -2512,7 +2513,7 @@ const tweets: Tweet[] = [
     userId: "1433615915124465671",
     username: "saydialect",
     content:
-      "Only 5% of blinks &amp; their capabilities have been written about. It’s time to share the other 95%\n\nComing soon https://t.co/IC3urLEJTd",
+      "Only 5% of blinks &amp; their capabilities have been written about. It's time to share the other 95%\n\nComing soon https://t.co/IC3urLEJTd",
     curatorNotes:
       "@MarinadeFinance @jito_sol @Backpack @uselulo @HedgehogMarket @helium @bonk_inu @solana @tensor_hq @drip_haus   Dialect teases increase Blinks functionality",
     curatorId: "1654266255711301632",
@@ -2629,7 +2630,7 @@ const tweets: Tweet[] = [
     userId: "1435897632581357572",
     username: "SolanaFloor",
     content:
-      "🚨NEW: $DOG, Bitcoin’s #1 dog memecoin, announces its expansion to @Solana. https://t.co/wACCwoA064",
+      "🚨NEW: $DOG, Bitcoin's #1 dog memecoin, announces its expansion to @Solana. https://t.co/wACCwoA064",
     curatorNotes: "@solana",
     curatorId: "1654266255711301632",
     curatorUsername: "plugrel",
@@ -2842,7 +2843,7 @@ const tweets: Tweet[] = [
     userId: "1651199844365766656",
     username: "sendaifun",
     content:
-      "Solana Agent Kit is now live with –– the Model Context Protocol (MCP) by @AnthropicAI.\n\nLLM clients like Claude Desktop can access 100+ Solana Actions –– powered by SendAI.\n\nMore on what it unlocks + demo 🧵 https://t.co/ZyZeqROvkp",
+      "Solana Agent Kit is now live with –– the Model Context Protocol (MCP) by @AnthropicAI.\n\nLLM clients like Claude Desktop can access 100+ Solana Actions –– powered by SendAI.\n\nMore on what it unlocks + demo 🧵 https://t.co/ZyZeqROvkp",
     curatorNotes:
       "@AnthropicAI @solana @aeyakovenko @solana_devs @SolanaFndn    Solana Agent Kit now supports MCP by Anthropic",
     curatorId: "1654266255711301632",
@@ -2941,7 +2942,7 @@ const tweets: Tweet[] = [
     userId: "1435897632581357572",
     username: "SolanaFloor",
     content:
-      "BREAKING: @solstrategies_ partners with @TetraTrust, Canada’s first licensed digital asset trust company, to enhance institutional access to secure, regulated @Solana staking—driving further adoption. https://t.co/jITLivX0sN",
+      "BREAKING: @solstrategies_ partners with @TetraTrust, Canada's first licensed digital asset trust company, to enhance institutional access to secure, regulated @Solana staking—driving further adoption. https://t.co/jITLivX0sN",
     curatorNotes: "@solstrategies_ @TetraTrust @solana",
     curatorId: "1654266255711301632",
     curatorUsername: "plugrel",
@@ -2993,7 +2994,7 @@ const tweets: Tweet[] = [
     userId: "1435897632581357572",
     username: "SolanaFloor",
     content:
-      "🚨New: @JupiterExchange To Bring in External Investigator Following Chow’s Resignation\n✍️ @solace_fm \nhttps://t.co/hPMrEvrsIi",
+      "🚨New: @JupiterExchange To Bring in External Investigator Following Chow's Resignation\n✍️ @solace_fm \nhttps://t.co/hPMrEvrsIi",
     curatorNotes: "@JupiterExchange @solace_fm",
     curatorId: "1688730036474396672",
     curatorUsername: "potlock_intern",
@@ -3124,7 +3125,7 @@ const tweets: Tweet[] = [
     userId: "1783117865928826880",
     username: "dAGIhouse",
     content:
-      "The dAGI Accelerator is proud to announce support from the Solana Foundation 🎉\n\nSolana + AI = lightspeed intelligence. If you’re a founder building at the intersection of crypto and AI, this is your chance to pour rocket fuel on your growth. Here’s how 🧵👇 https://t.co/AcPkWNJKun",
+      "The dAGI Accelerator is proud to announce support from the Solana Foundation 🎉\n\nSolana + AI = lightspeed intelligence. If you're a founder building at the intersection of crypto and AI, this is your chance to pour rocket fuel on your growth. Here's how 🧵👇 https://t.co/AcPkWNJKun",
     curatorNotes: "dAGI Accelerator Boosts AI-Crypto Innovation on Solana!",
     curatorId: "1688730036474396672",
     curatorUsername: "potlock_intern",
@@ -3262,6 +3263,7 @@ const tweets: Tweet[] = [
 ];
 
 const Index = () => {
+  const config = useConfig(); // Get the config
   const [searchTerm, setSearchTerm] = useState("");
   const [sortBy, setSortBy] = useState("date-desc");
 
@@ -3295,9 +3297,9 @@ const Index = () => {
       <div className="max-w-4xl mx-auto space-y-8">
         <div className="text-center">
           <h1 className="text-4xl font-bold bg-gradient-to-r from-[#14F195] to-[#9945FF] text-transparent bg-clip-text">
-            SOL Digest
+            {config.appTitle} {/* Use config for title */}
           </h1>
-          <p className="mt-2 text-gray-400">Track the latest in Solana</p>
+          <p className="mt-2 text-gray-400">{config.appDescription}</p> {/* Use config for description */}
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 w-full">
