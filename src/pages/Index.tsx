@@ -3165,7 +3165,7 @@ const Index = () => {
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 w-full">
           <SearchBar value={searchTerm} onChange={setSearchTerm} />
           <SortSelect value={sortBy} onChange={setSortBy} />
         </div>
