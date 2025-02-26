@@ -12,7 +12,7 @@ npm install -g pnpm
 git clone <repository-url>
 
 # Navigate to project directory
-cd twitter-filtered-feed
+cd solana-digest
 
 # Install dependencies
 pnpm install
@@ -31,7 +31,7 @@ pnpm dev
 
 ## Development
 
-The development server will start at `http://localhost:5173` by default. The app will automatically reload if you change any of the source files.
+The development server will start at `http://localhost:8080` by default. The app will automatically reload if you change any of the source files.
 
 ```sh
 pnpm dev
