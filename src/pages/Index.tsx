@@ -3308,9 +3308,11 @@ const Index = () => {
         </div>
 
         <div className="space-y-6">
-          {filteredAndSortedTweets.map((tweet) => (
+          {filteredAndSortedTweets.length > 0 ? filteredAndSortedTweets.map((tweet) => (
             <TweetCard key={tweet.tweetId} tweet={tweet} />
-          ))}
+          )) : (
+            <div className="text-center text-gray-400">No tweets found</div>
+          )}
         </div>
       </div>
     </div>
